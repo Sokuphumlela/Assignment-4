@@ -1,5 +1,4 @@
 package nombila.s;
-import bicycles.Bicycle;
 
 public interface BikeRide {
 
