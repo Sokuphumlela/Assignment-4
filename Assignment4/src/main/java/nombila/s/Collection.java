@@ -14,13 +14,10 @@ import java.util.SortedMap;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
-public class AboutCollections {
+public class Collections {
 
     public void usingAnArrayList() {
         // List = interface
-        // The generic syntax and special generic cases will be handled in
-        // AboutGenerics. We just use <String> collections here to keep it
-        // simple.
         List<String> list = new ArrayList<String>();
         // ArrayList: simple List implementation
         list.add("Chicken");
@@ -104,9 +101,6 @@ public class AboutCollections {
         sorted.add("a");
         assertEquals(sorted.first(), "a");
         assertEquals(sorted.last(), "z");
-        // Look at the different constructors for a TreeSet (or TreeMap)
-        // Ponder how you might influence the sort order. Hold that thought
-        // until you approach AboutComparison
 
         LinkedHashSet<String> ordered = new LinkedHashSet<String>();
         ordered.add("c");
