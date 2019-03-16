@@ -1,3 +1,5 @@
+package nombila.s;
+
 public interface Bicycle {
 
      void accelerate();
